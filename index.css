@@ -1,0 +1,96 @@
+@font-face {
+    font-family: timer;
+    src: url(fonts/Cursed_Timer_ULiL/CursedTimerULiL.ttf);
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/basket_balls.jpg);
+    background-size: cover;
+}
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(27, 36, 74, 1);
+    color: rgba(238, 238, 238, 1);
+    text-align: center;
+    opacity: 80%;
+    margin-top: 0.5em;
+    padding: 0.75em;
+}
+.container {
+    background-color: rgba(27, 36, 74, 1);
+    width: 575px;
+    height: 400px;
+    margin: 2em auto;
+}
+.container-top {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+.container-top-heading {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: top;
+    color: rgba(238, 238, 238, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 21px;
+}
+.screen {
+    width: 155px;
+    height: 120px;
+    background-color: rgba(8, 0, 1, 1);
+    border-radius: 5px;
+    margin-bottom: 26px;
+}
+#home-score, #guest-score {
+    padding-left: 18px;
+    padding-right: 20px;
+    font-family: timer;
+    font-size: 90px;
+    font-weight: 400;
+    color: rgba(249, 79, 109, 1);
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 15px;
+}
+.btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid rgba(154, 171, 216, 1);
+    color: rgba(154, 171, 216, 1);
+    background: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: timer;
+}
+.btn:active {
+    background-color: rgba(154, 171, 216, 1) ;
+    color: rgba(27, 36, 74, 1);
+}
+.reset-btn {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.reset {
+    padding: 10px 20px;
+    background: #E1D6AD;
+    color: rgb(90, 1, 1);
+    border: 2px solid rgb(44, 0, 0);
+    border-radius: 5px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 16px;
+}
+.reset:active {
+    background-color: #f9e085;
+}
